@@ -7,6 +7,8 @@ import Home from "./components/Home.vue";
 <template>
   <router-link to="/">HOME</router-link>
 
+  <h1>App Page</h1>
+
   <Home />
 </template>
 
