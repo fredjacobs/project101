@@ -5,6 +5,7 @@
 
 <template>
   <router-link to="/">HOME</router-link>
+  <h1>App Page here</h1>
 
   <router-view></router-view>
 </template>
