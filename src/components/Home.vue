@@ -21,7 +21,6 @@ store.counter++;
       Wait and increment
     </button>
     <h1>{{ store.constValue }}</h1>
-    <p>{{ store }}</p>
   </div>
 </template>
 
