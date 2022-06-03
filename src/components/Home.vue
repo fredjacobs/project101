@@ -9,18 +9,44 @@ store.counter++;
 </script>
 
 <template>
-  <div>
-    <h1>HOME</h1>
+  <div class="row">
+    <div class="col-md-6 home-intro-img bg-primary">
+      <h1 class="display-3">Company Project</h1>
+    </div>
 
-    <h2>Count: {{ store.counter }}</h2>
-    <h3>Double: {{ store.doubleCount }}</h3>
-    <button class="btn btn-success" @click="store.increment(1)">
-      Increment
-    </button>
-    <button class="btn btn-outline-danger" @click="store.waitAndAdd()">
-      Wait and increment
-    </button>
-    <h1>{{ store.constValue }}</h1>
+    <div class="col-md-6 home-login-section p-5">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </div>
 </template>
 

@@ -5,11 +5,13 @@ import Home from "./components/Home.vue";
 </script>
 
 <template>
-  <router-link to="/">HOME</router-link>
+  <div class="container-fluid">
+    <div class="toolbar">
+      <router-link to="/">HOME</router-link>
+    </div>
 
-  <h1>App Page</h1>
-
-  <Home />
+    <Home />
+  </div>
 </template>
 
 <style>
@@ -17,8 +19,7 @@ import Home from "./components/Home.vue";
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
