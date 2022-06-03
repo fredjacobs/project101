@@ -11,7 +11,7 @@ store.counter++;
 <template>
   <div class="row">
     <div class="col-md-6 home-intro-img bg-primary">
-      <h1 class="display-3">Company Project</h1>
+      <h1 class="display-3 text-white">Company Project</h1>
     </div>
 
     <div class="col-md-6 home-login-section p-5">
@@ -54,4 +54,10 @@ store.counter++;
 $btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 </style>-->
 
-<style></style>
+<style>
+.home-intro-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
