@@ -60,4 +60,7 @@ $btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, bord
   align-items: center;
   justify-content: center;
 }
+.fullH {
+  height: 100%;
+}
 </style>
