@@ -10,11 +10,11 @@ store.counter++;
 
 <template>
   <div class="row">
-    <div class="col-md-6 home-intro-img bg-primary">
+    <div class="col-md-6 home-intro-img bg-primary vh-100">
       <h1 class="display-3 text-white">Company Project</h1>
     </div>
 
-    <div class="col-md-6 home-login-section p-5">
+    <div class="col-md-6 home-login-section vh-100">
       <form>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
@@ -55,12 +55,10 @@ $btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, bord
 </style>-->
 
 <style>
-.home-intro-img {
+.home-intro-img,
+.home-login-section {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.fullH {
-  height: 100%;
 }
 </style>
