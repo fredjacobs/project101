@@ -3,6 +3,7 @@
     <div class="col-md-4 text-white">Company Project</div>
     <div class="col-md-4 text-white">
       <router-link to="/">HOME</router-link>
+      <router-link to="/projectslistview">Projects</router-link>
     </div>
     <div class="col-md-4 text-white">{{ name }}</div>
   </div>

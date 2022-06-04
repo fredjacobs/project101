@@ -1,20 +1,11 @@
-<script setup>
-import { useCounterStore } from "../stores/counter";
-
-const store = useCounterStore();
-
-//const { constValue } = store;
-
-store.counter++;
-</script>
-
 <template>
   <div class="row">
     <div class="col-md-6 home-intro-img bg-primary vh-100">
       <h1 class="display-3 text-white">Company Project</h1>
     </div>
 
-    <div class="col-md-6 home-login-section vh-100">
+    <div class="col-md-6 home-login-section vh-100 flex-column">
+      <p class="login-heading"><span>Login</span> / <span>Register</span></p>
       <form>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
@@ -49,6 +40,16 @@ store.counter++;
     </div>
   </div>
 </template>
+
+<script setup>
+import { useCounterStore } from "../stores/counter";
+
+const store = useCounterStore();
+
+//const { constValue } = store;
+
+store.counter++;
+</script>
 
 <!--<style lang="sass" scoped>
 $btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
