@@ -1,8 +1,8 @@
 <template>
-  <div class="row toolbar py-2">
+  <div class="row toolbar py-2 align-items-center">
     <div class="col-md-4 text-white">Company Project</div>
 
-    <div class="col-md-4 text-white">
+    <div class="col-md-4 text-white text-center">
       <!--Off Canvas #####################################-->
 
       <svg
@@ -45,7 +45,7 @@
 
       <!--##################################-->
     </div>
-    <div class="col-md-4 text-white">{{ name }}</div>
+    <div class="col-md-4 text-white text-end">Welcome {{ name }}</div>
   </div>
 </template>
 
