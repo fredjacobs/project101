@@ -46,6 +46,9 @@ import { useCounterStore } from "../stores/counter";
 
 const store = useCounterStore();
 
+//const customerList = customers.getCustomerList();
+//console.log(customerList);
+
 //const { constValue } = store;
 
 store.counter++;

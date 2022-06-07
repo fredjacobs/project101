@@ -8,7 +8,8 @@ import Toolbar from "./components/Toolbar.vue";
 <template>
   <div class="container-fluid">
     <toolbar />
-    <router-view></router-view>
+
+    <router-view />
   </div>
 </template>
 
